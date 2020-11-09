@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caroline Manson's Portfolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Commissioner:wght@300&family=Oswald:wght@700&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        html,
+body,
+main,
+.view {
+  height: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Commissioner', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+@media (max-width: 740px) {
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+  color: black;
+}
+
+h5 {
+  letter-spacing: 3px;
+  color: black;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.navbar.active {
+    background: black;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.bg {
+  background-image: url("background.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+    position: absolute;
+    left: 150px;
+}
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Caroline Manson</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button> 
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="index.html" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="projects.html" class="nav-link text-uppercase font-weight-bold">Projects</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-uppercase font-weight-bold">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="view bg">
+        <div class="mask rgba-black-light align-items-center">
+            <!--Content-->
+            <div class="container-fluid">
+                <div class="row">
+                    <main>
+                        <div class="col-md-12 mb-4 white-text text-center">
+                            <br>
+                            <br>
+                            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
+                                data-wow-delay="0.3s"><strong>Hello!</strong></h1>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s">My name is
+                                Caroline Manson. I am a budding full stack web developer.</p>
+                                <p>Welcome to my online portfolio.</p>
+                            </h5>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+
+</html>
